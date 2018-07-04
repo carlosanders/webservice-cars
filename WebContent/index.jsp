@@ -17,10 +17,10 @@
 		<!-- Content here -->
 		<form action="<%=request.getContextPath()%>/hello" method="post">
 			<div class="form-group">
-				<label for="nome">Email address</label> 
-				<input type="text" class="form-control" id="nome" name="nome"
-					aria-describedby="nomeHelp" placeholder="Enter name"> 
-				<small id="nomeHelp" class="form-text text-muted">teste. </small>
+				<label for="nome">Email address</label> <input type="text"
+					class="form-control" id="nome" name="nome"
+					aria-describedby="nomeHelp" placeholder="Enter name"> <small
+					id="nomeHelp" class="form-text text-muted">teste. </small>
 			</div>
 
 			<button type="submit" class="btn btn-primary">Submit</button>
